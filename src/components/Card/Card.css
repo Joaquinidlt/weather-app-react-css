@@ -1,0 +1,46 @@
+.card {
+  color: whitesmoke;
+  margin: 2rem;
+  width: 18rem;
+  background-color: rgba(71, 71, 71, 0.274);
+  box-shadow: #16202a 2px 4px 6px 0px;
+}
+.card-title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 2rem;
+  text-shadow: #16202a 2px 3px 3px;
+}
+.card-title:hover {
+  text-decoration: none;
+  color: darkgray;
+}
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.row {
+  margin-top: 15px;
+}
+.iconoClima {
+  filter: drop-shadow(12px 10px 7px #16202a);
+}
+.btnX {
+  background-color: #d44444 !important;
+
+  color: #16202a;
+  border: none;
+}
+.btn:hover {
+  color: rgb(79, 79, 79);
+}
+.card-title:hover {
+  color: #7a7a7a;
+}

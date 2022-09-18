@@ -1,0 +1,35 @@
+.containerA {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 40vw;
+  height: 60vh;
+  box-shadow: #16202a 2px 4px 6px 0px;
+}
+.text {
+  margin: auto;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 90vw;
+    margin-top: 1rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  .link {
+    color: white;
+    font-weight: 900;
+  }
+}
